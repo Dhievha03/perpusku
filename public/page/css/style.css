@@ -1,0 +1,231 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #e9e9e9 !important;
+}
+
+.text-app-primary{
+    color: #0b2f8a
+}
+
+.text-app-secondary{
+    color: rgb(250, 178, 43)
+}
+
+.bg-app-primary{
+    background-color: #0b2f8a;
+}
+
+.bg-app-secondary{
+    background-color: rgb(250, 178, 43)
+}
+
+.navbar-logo {
+  height: auto;
+  width: 120px;
+  margin-right: 10px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.custom-navbar {
+    background-color: white !important; 
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav {
+    margin: 0;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.navbar-nav {
+    flex-direction: column;
+}
+
+.navbar-nav .nav-item {
+    margin: 0;
+}
+
+.navbar-toggler {
+    margin: 10px 0;
+}
+
+.navbar-nav .nav-link.active-link {
+    color: #0B2F8A !important;
+    font-weight: 650;
+}
+
+.card {
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.card img {
+  height: 250px; 
+  object-fit: cover; 
+}
+
+.card-body {
+  padding: 25px; 
+}
+
+.card-group {
+  margin-bottom: 20px;
+}
+
+.header-container {
+  height: 90vh;
+  width: 100vw;
+  position: relative;
+}
+
+.bg-black-sh{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.3;
+}
+
+.header-content-text{
+    color: white;
+    position: absolute;
+    bottom: 80px;
+}
+
+.header-content-text p{
+    font-weight: bold;
+}
+
+.wisata-search{
+    z-index: 10; 
+    width: 50%
+}
+
+.btn {
+  height: 45px;
+  width: 150px;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.5s;
+  background-color: #0B2F8A;
+  margin-left: 1px;
+}
+
+.btn2 {
+  height: 45px;
+  width: 400px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.5s;
+  background-color: white;
+  margin-left: 1px;
+}
+
+.dropdown-menu {
+  width: 400px;
+}
+
+.active{
+    font-weight: 600;
+}
+
+.active a{
+    color: #0B2F8A !important;
+}
+
+.footer {
+    background-color: #343434;
+}
+
+
+@media (max-width: 425px) {
+    .navbar-nav {
+        margin: 0;
+    }
+
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        text-align: center;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 0;
+    }
+
+    .navbar-toggler {
+        margin: 10px 0;
+    }
+
+    .col-md-3.text-end {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .wisata-search{
+        width: 95% !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .header-container {
+        height: 100vh;
+    }
+
+    .navbar-toggler {
+        margin: 10px 0;
+    }
+
+    .header-content-text p{
+        font-size: 200% !important;
+    }
+
+    .btn {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .btn2 {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .dropdown-menu {
+        width: 100%;
+    }
+
+    .card img {
+        height: 200px;
+    }
+
+    .card-body {
+        padding: 10px;
+    }
+
+    .wisata-search{
+        width: 80%
+    }
+}
